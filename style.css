@@ -9,6 +9,16 @@
 
  }
 
+ /* Estilizando o card */
+ #card {
+     background-color: rgb(255, 255, 255);
+     padding: 40px;
+     border-radius: 20px;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+     text-align: center;
+     width: 350px;
+ }
+
  /* Estilizando o título h1 */
  h1 {
      font-family: 'Momo Signature', cursive;
@@ -20,20 +30,26 @@
  /* Estilizando o parágrafo */
  p {
      font-family: 'Roboto Condensed', sans-serif;
-     line-height: 10px;
-     font-size: 18px;
+     line-height: 20px;
+     font-size: 16px;
      color: rgb(156, 37, 123);
      text-align: center;
+     
  }
 
  /* Estilizando a imagem */
  img {
      display: block;
      margin-left: auto;
-     border-radius: 50%;
      margin-right: auto;
-     border-radius: 50%;
      width: 200px;
      height: auto;
+     border-radius: 100px;
+
+ }
+
+ .foto-legenda {
+     font-size: 12px;
+     font-style: italic;
 
  }
