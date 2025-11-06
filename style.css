@@ -17,6 +17,7 @@
      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
      text-align: center;
      width: 350px;
+
  }
 
  /* Estilizando o título h1 */
@@ -30,7 +31,7 @@
  /* Estilizando o parágrafo */
  p {
      font-family: 'Roboto Condensed', sans-serif;
-     line-height: 20px;
+     line-height: 18px;
      font-size: 16px;
      color: rgb(156, 37, 123);
      text-align: center;
