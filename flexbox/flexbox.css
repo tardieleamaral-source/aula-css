@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: #023409;
+    color: white;
+    text-align: center;
+    /* padding: espaçamento interno (top, right, bottom, left) */
+    /* margin: espaçamento externo (top, right, bottom, left) */
+    padding: 30px 30px 30px 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    height: 65vh;
+    background: rgb(174, 197, 91)
+}
+
+.box {
+    background-color: white;
+    padding: 10px;
+    border-radius: 0px;
+    box-shadow: 0 4px 8px rgba(111, 5, 5, 0.1);
+    text-align: center;
+    width: 30px;
+}
