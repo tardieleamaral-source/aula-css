@@ -4,7 +4,8 @@ body {
     padding: 0;
 }
 
-header, footer {
+header,
+footer {
     background-color: #023409;
     color: white;
     text-align: center;
@@ -20,6 +21,17 @@ header, footer {
     padding: 30px;
     height: 65vh;
     background: rgb(174, 197, 91)
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .box {
+        width: 100%;
+    }
 }
 
 .box {
