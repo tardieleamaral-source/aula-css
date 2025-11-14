@@ -1,0 +1,68 @@
+* {
+    width: 100% !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+}
+
+#navbar {
+    background-color: #198754 !important;
+    color: white !important;
+}
+
+a {
+    color: white !important;
+}
+
+.dropdown-menu a {
+    color: #000000 !important;
+}
+
+.dropdown-menu {
+    background-color: hwb(141 24% 41% / 0.836) !important;
+    width: 150px !important;
+}
+
+.dropdown-menu a:hover {
+    background-color: lab(57.98% -6.4 -17.25 / 0.365) !important;
+    width: 150px !important;
+    color: rgba(243, 235, 233, 0.852) !important;
+}
+
+#hero img {
+    width: 100% !important;
+    height: 190px !important;
+    object-fit: cover !important;
+}
+
+#navbarSupportedContent {
+    width: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: end !important;
+    padding-left: 50% !important;
+}
+
+.container-fluid {
+    padding: 0vw 5vw !important;
+    width: 100% !important;
+}
+
+#destaquesdasemana h1{
+    text-align: center !important;
+    padding: 2vw !important;
+}
+
+#cards{
+    display: flex !important;
+    align-items: center !important;
+    justify-items: center !important;
+    gap: 20px !important;
+    width: 100vw !important;
+
+}
+
+#card-img-top {
+    width: 40% !important;
+    height: 20px !important;
+    object-fit: contain !important;
+}
+
